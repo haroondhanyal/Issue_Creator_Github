@@ -29,7 +29,7 @@ github_repo_name = "github_issue_creator"
 # Step 4: Use GitHub API to create a new issue
 github_api_url = f"https://api.github.com/repos/{github_username}/{github_repo_name}/issues"
 issue_title = f"New Issue for {gitlab_repo_name}"
-issue_body = "An issue is created through GitHUb API."
+issue_body = "An issue is created through GitHUb API"
 
 headers = {
     "Authorization": f"token {github_token}",
